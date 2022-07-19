@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tp3-dapp/static/css/main.9bb21d3d.chunk.css",
+    "main.js": "/tp3-dapp/static/js/main.736dd624.chunk.js",
+    "main.js.map": "/tp3-dapp/static/js/main.736dd624.chunk.js.map",
+    "runtime-main.js": "/tp3-dapp/static/js/runtime-main.1d090b3c.js",
+    "runtime-main.js.map": "/tp3-dapp/static/js/runtime-main.1d090b3c.js.map",
+    "static/js/2.3fdf736e.chunk.js": "/tp3-dapp/static/js/2.3fdf736e.chunk.js",
+    "static/js/2.3fdf736e.chunk.js.map": "/tp3-dapp/static/js/2.3fdf736e.chunk.js.map",
+    "index.html": "/tp3-dapp/index.html",
+    "static/css/main.9bb21d3d.chunk.css.map": "/tp3-dapp/static/css/main.9bb21d3d.chunk.css.map",
+    "static/js/2.3fdf736e.chunk.js.LICENSE.txt": "/tp3-dapp/static/js/2.3fdf736e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d090b3c.js",
+    "static/js/2.3fdf736e.chunk.js",
+    "static/css/main.9bb21d3d.chunk.css",
+    "static/js/main.736dd624.chunk.js"
+  ]
+}
