@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap');
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body, html, main, div {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: var(--colorText);
+    width: 100%;
+}
+h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 3px 0px #898999;
+}
+
+h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 3px 0px #898999;
+}
+
+.welCome {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.votreAdresseC {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.infoAdmin {
+    color: #fff;
+    background: rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 1rem;
+    font-size: 1.3rem;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    border: 10px solid #fff;
+    box-sizing: border-box;
+    padding: 2rem 0;
+}
+
+.containerAdmin {
+    background-image: linear-gradient(19deg, #051937 0%, #21D4FD 70%,#21D4FD 85%,#B721FF 100%);
+}
+
+.containerVotant {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.containerNonVotant {
+    background: repeating-linear-gradient(135deg,
+                #fff,
+                #606dbc 10px,
+                tomato 10px,
+                tomato 20px);
+    border: 10px solid tomato;
+}
+
+.flexRow {
+    display: flex;
+    flex-flow: row nowrap;
+    row-gap: 1em;
+    column-gap: 20em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-flow: column nowrap;
+    column-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2rem 0;
+}
+
+.WorkfFlowStatus {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.WorkfFlow_Step {
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    border: solid 5px rgba(255, 255, 255, .1);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.WorkfFlow_CurrentStep {
+    color: #000;
+    font-weight: bold;
+    background: #eeeded;
+    border: solid 5px rgba(0, 0, 0, .1);
+}
+
+.WorkfFlow_NextStep {
+    color: #FFF;
+    background: #8107ba;
+}
+
+.WorkfFlow_NextStep:hover {
+    color: #000;
+    font-weight: bold;
+    background: #eeeded;
+    border: solid 5px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.WorkfFlow_NoStep {
+    color: rgba(255, 255, 255, .7);
+    background: rgba(0, 0, 0, .3);
+    /* background: tomato; */
+}
+
+.mainApp {
+    background: #eeeded;
+    width: auto;
+    height: auto;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, .2);
+}
+
+.mainAppVotant {
+    font-size: 2rem;
+}
+
+.mainAppError {
+    background: tomato;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.input {
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 4px 2px;
+    width: 100%;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    font-weight: bold;
+    box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, .2);
+}
+
+.buttonGreen {
+    background: white;
+    color: black;
+    border: 2px solid #00bf72;
+}
+
+.buttonGreen:hover {
+    background: #00bf72;
+    color: white;
+}
+
+.buttonBlue {
+    background: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.buttonBlue:hover {
+    background: #008CBA;
+    color: white;
+}
+
+.buttonRed {
+    background: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.buttonRed:hover {
+    background: #f44336;
+    color: white;
+}
+
+.nextApp {
+    margin-top: 2rem;
+    background: #eeeded;
+    width: auto;
+    height: auto;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, .2);
+}
+
+.AppVote {
+    font-size: 1.8rem;
+}
+
+.WinProp {
+    font-size: 1.8rem;
+    min-width: 500px;
+}
